@@ -24,10 +24,12 @@ Bivariate data analysis: Analysis conducted using two variables denotes bivariat
 
 Multivariate data analysis:Multivariate analysis is required when more than two variables have to be analyzed simultaneously. It is used to study more complex sets of data and shows relations between multiple variables in a dataset.
 
-In this project I used correlation analysis as a part of multivariate analysis to derive insights on relation between clinical data variables(independent variables) and total amount(dependent variable).
+In this project I used correlation analysis as a part of multivariate analysis to derive insights on relation between numeric variables(independent variables) and total amount(dependent variable).
+
 Correlation analysis deals with relationships among variables. The correlation coefficient is a measure of linear association between two variables. Values of the correlation coefficient are always between -1 and +1. A correlation coefficient of +1 indicates that two variables are perfectly related in a positive linear sense, a correlation coefficient of -1 indicates that two variables are perfectly related in a negative linear sense, and a correlation coefficient of 0 indicates that there is no linear relationship between the two variables.Correlation analysis cannot establish cause-and-effect relationships between dependent and independent variables. It can indicate only how or to what extent variables are associated with each other. The correlation coefficient measures only the degree of linear association between two variables. Any conclusions about a cause-and-effect relationship must be based on the judgment of the analyst.
 
 Results/Insights on cost drivers:
 Following insights have been drawn from the analysis:
-Demographic data: The dataset consisted of patients between the age groups 30-40 years and most of the patient population belonged to chinese race and singaporean resident status. There was equal distribution of male and female patient population in the dataset.
-The highest total amount was contributed by 
+Demographic data: From univariate analysis it is evdient that the dataset consisted of patients between the age groups 30-40 years and most of the patient population belonged to chinese race and singaporean resident status. There was equal distribution of male and female patient population in the dataset.
+Bivariate analysis shows the patients with Malaysian race, foreigners(resident status), and age group of 80-90 with more males than females in that age group contirubute to the highest total amount. In the overall dataset, males and females equally contribute to the total amount.
+From multivariate analysis to see the relation between numeric variables and total sum, from the correlation between dependent and independent variables, symptom 5,age,medical history 1, symptom 3, medical history 6 and symptom 4 are the top variables to show positive relation with total amount.
